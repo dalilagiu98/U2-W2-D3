@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font: {
+        family:'Quicksand', sans-serif;
+        size: 1.2em;
+        weight: 400;
+    }
+}
+
+@mixin fontStyleTitle{
+    font: {
+        weight: 600;
+        size: 3em;
+    }
+}
